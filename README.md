@@ -33,16 +33,13 @@ const aoxDecoder = require('aoxel-decoder');
 Use the `decodeAOX` function to decode AOX files into WAV files. Provide the path to the AOX file and the output directory as arguments.
 
 ```javascript
-const aoxFile = 'path/to/your.aox';
-const outputDir = 'path/to/output/dir';
+ 
 
-aoxDecoder.decodeAOX(aoxFile, outputDir)
-  .then(() => {
-    console.log('Decoding completed successfully.');
-  })
-  .catch((error) => {
-    console.error('Error decoding AOX file:', error);
-  });
+const aoxFilename = './input.aox'; // Replace with the path to your AOX file
+const outputDir = './'; // Output directory for decoded WAV files
+
+decodeAOX(aoxFilename, outputDir);
+
 ```
 
 ## API Documentation
