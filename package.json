@@ -1,7 +1,7 @@
 {
-  "name": "aox-decoder",
+  "name": "aoxel-decoder",
   "version": "1.0.0",
-  "description": "A Node.js package to decode AOX files into WAV files.",
+  "description": "A Node.js package to decode Aoxel (AOX) files into WAV files.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cyberkutti-iedc/Node-Aoxel"
+    "url": "https://github.com/cyberkutti-iedc/aoxel-Nodejs"
   },
   "keywords": ["aox", "decoder", "wav","aox decoder","audio format"],
   "author": "SREERAJ V RAJESH",

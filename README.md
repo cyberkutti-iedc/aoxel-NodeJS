@@ -1,31 +1,38 @@
+```markdown
+# aoxel-decoder
 
----
+A Node.js package for decoding AOX files into WAV files.
 
-# AOX-Decoder
+## Table of Contents
 
-**AOX-Decoder** is a Node.js package for decoding AOX audio files into WAV format. AOX is a custom audio format used in specific applications, and this package allows you to convert AOX files into a more universally supported WAV format.
-
-## Features
-
-- Decodes AOX audio files into WAV.
-- Simple and easy-to-use API.
-- Ideal for applications and projects working with custom audio formats.
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Installation
 
-You can install AOX-Decoder via npm:
+You can install the package via npm:
 
 ```bash
-npm install aox-decoder
+npm install aoxel-decoder
 ```
 
 ## Usage
 
-To decode AOX files, use the following code in your Node.js project:
+To use the `aoxel-decoder` package, you need to require it in your Node.js code:
 
 ```javascript
-const aoxDecoder = require('aox-decoder');
+const aoxDecoder = require('aoxel-decoder');
+```
 
+### Decoding AOX Files
+
+Use the `decodeAOX` function to decode AOX files into WAV files. Provide the path to the AOX file and the output directory as arguments.
+
+```javascript
 const aoxFile = 'path/to/your.aox';
 const outputDir = 'path/to/output/dir';
 
@@ -38,21 +45,38 @@ aoxDecoder.decodeAOX(aoxFile, outputDir)
   });
 ```
 
-## Documentation
+## API Documentation
 
-For more details and examples, please refer to the [official documentation](link-to-documentation).
+### `decodeAOX(aoxFile, outputDir)`
+
+- `aoxFile` (String): The path to the AOX file to be decoded.
+- `outputDir` (String): The directory where decoded WAV files will be saved.
+
+Decodes the AOX file into WAV files in the specified output directory.
+
+## Contributing
+
+Contributions are welcome! To contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure they are properly tested.
+4. Submit a pull request to the `main` branch of this repository.
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
+## Contact
 
-- **Author:** SREERAJ V RAJESH
+If you have any questions or need further assistance, feel free to contact the project author:
+
+- **Name:** SREERAJ V RAJESH
 - **GitHub:** [GitHub Profile](https://github.com/cyberkutti-iedc)
-
-## Repository
-
-The source code for this package can be found on [GitHub](https://github.com/cyberkutti-iedc/aoxel-NodeJs).
+- **Email:** cyberkutti@gmail.com
 
 ---
+
+Thank you for using `aoxel-decoder`! We hope it's helpful in your project.
+```
+
