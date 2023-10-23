@@ -1,11 +1,10 @@
 {
   "name": "aoxel-decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js package to decode Aoxel (AOX) files into WAV files.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,9 +13,7 @@
   "keywords": ["aox", "decoder", "wav","aox decoder","audio format"],
   "author": "SREERAJ V RAJESH",
   "license": "MIT",
-  "dependencies": {
-    "mocha": "^8.4.0"  
-  },
+  
   "engines": {
     "node": ">=12.0.0"
   },
